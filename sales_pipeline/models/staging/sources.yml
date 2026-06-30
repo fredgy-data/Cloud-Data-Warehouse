@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: data-engineering-494417
+    schema: sales_dw
+    tables:
+      - name: bronze_customers
+      - name: bronze_products
+      - name: bronze_sales
